@@ -95,7 +95,7 @@ This script runs a grid search over key hyperparameters (wavelet type, level, si
 **Usage:**
 
 ```bash
-python scripts/final_gridsearch.py \
+PYTHONPATH=./src python scripts/final_gridsearch.py \
     --data_path ./data/mvtec_anomaly_detection \
     --model efficientnet-b0 \
     --gpu_id 0

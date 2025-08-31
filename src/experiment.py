@@ -128,24 +128,24 @@ def run_model_experiment(
         fusion_levels = config.get('fusion_levels', [1, 2])
         fusion_learn_weights = config.get('fusion_learn_weights', False)
         if use_adaptive_fusion:
-        result = run_single_wavelet_experiment(
-            evaluator=evaluator,
-            feature_extractor=feature_extractor,
-            class_names=class_names,
-            wavelet_type=wavelet_type,
-            wavelet_level=wavelet_level,
-            wavelet_kept_subbands=wavelet_kept_subbands,
-            sigma=sigma,
-            cov_reg=cov_reg,
-            use_adaptive_fusion=use_adaptive_fusion,
-            fusion_levels=fusion_levels,
-            fusion_learn_weights=fusion_learn_weights,
-            save_path=model_save_path,
-            save_visualizations=save_visualizations,
-            calculate_pro=calculate_pro,
-            train_batch_size=train_batch_size,
-            resource_monitor=resource_monitor
-        )
+            result = run_single_wavelet_experiment(
+                evaluator=evaluator,
+                feature_extractor=feature_extractor,
+                class_names=class_names,
+                wavelet_type=wavelet_type,
+                wavelet_level=wavelet_level,
+                wavelet_kept_subbands=wavelet_kept_subbands,
+                sigma=sigma,
+                cov_reg=cov_reg,
+                use_adaptive_fusion=use_adaptive_fusion,
+                fusion_levels=fusion_levels,
+                fusion_learn_weights=fusion_learn_weights,
+                save_path=model_save_path,
+                save_visualizations=save_visualizations,
+                calculate_pro=calculate_pro,
+                train_batch_size=train_batch_size,
+                resource_monitor=resource_monitor
+            )
         if use_adaptive_fusion:
             experiment_result = {
                 'model_name': model_name,

@@ -60,7 +60,10 @@ conda create -n wepadim python=3.8
 conda activate wepadim
 
 # Install dependencies
-pip install -r requirements.txt (due to some version/dependency issues, this will soon be updated)
+# Adjust depending on CUDA version
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+
+pip install pytorch-wavelets pandas scikit-learn scipy matplotlib seaborn tqdm psutil gputil pillow numpy PyWavelets
 ```
 
 ### 3. Download the MVTec AD Dataset

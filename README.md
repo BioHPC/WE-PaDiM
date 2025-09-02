@@ -17,15 +17,14 @@ Our evaluation on the MVTec AD dataset shows that WE-PaDiM achieves high perform
 If you find this work useful in your research, please cite our paper:
 
 ```bibtex
-@ARTICLE{Gardner_Min_Ahn_2024,
-  author={Gardner, Cory and Min, Byungseok and Ahn, Tae-Hyuk},
-  journal={IEEE Access},
-  title={Wavelet-Enhanced PaDiM for Industrial Anomaly Detection},
-  year={2024},
-  volume={},
-  number={},
-  pages={1-14},
-  doi={10.1109/ACCESS.2024.0429000}
+@misc{Gardner_Min_Ahn_2024,
+      title={Wavelet-Enhanced PaDiM for Industrial Anomaly Detection}, 
+      author={Gardner, Cory and Min, Byungseok and Ahn, Tae-Hyuk},
+      year={2025},
+      eprint={2508.16034},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2508.16034}, 
 }
 ```
 

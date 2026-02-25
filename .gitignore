@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch
+*.pth
+*.pt
+
+# Data and Results
+data/MVTec/
+data/VisA/
+!data/README.md
+results/
+logs/
+*.log
+*.err
+*.out
+
+# Experimental artifacts
+previous_version/
+*.bak
+*_old/
+*_backup/
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Local configuration
+LOCAL_SETUP.md
+local_config.py
+.env.local
+
+# Slurm and batch jobs
+slurm-*.out
+*.sbatch.local
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.temp
+replication_log.txt
+image_opt_validation_log.txt
+run_docker_tests.sh
+replicate_*.sh
+quick_*.sh
+compare_paper_results.py
+REPLICATION_SUMMARY.md
+Dockerfile.test

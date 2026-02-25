@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Wavelet-Enhanced PaDiM for Industrial Anomaly Detection"
+authors:
+  - family-names: "Gardner"
+    given-names: "Cory"
+  - family-names: "Min"
+    given-names: "Byungseok"
+  - family-names: "Ahn"
+    given-names: "Tae-Hyuk"
+repository-code: "https://github.com/your-org/WE-PaDiM_VisA"
+url: "https://arxiv.org/abs/2508.16034"
+abstract: "Wavelet-Enhanced PaDiM extends the PaDiM anomaly-detection framework by inserting a discrete wavelet transform (DWT) step before feature concatenation. Combining multi-layer CNN activations with frequency-structured subbands improves both image-level and pixel-level anomaly detection on industrial inspection benchmarks such as MVTec AD and VisA."
+keywords:
+  - anomaly detection
+  - wavelet transform
+  - deep learning
+  - industrial inspection
+  - MVTec AD
+  - VisA
+license: MIT
+year: 2025
+preferred-citation:
+  type: article
+  title: "Wavelet-Enhanced PaDiM for Industrial Anomaly Detection"
+  authors:
+    - family-names: "Gardner"
+      given-names: "Cory"
+    - family-names: "Min"
+      given-names: "Byungseok"
+    - family-names: "Ahn"
+      given-names: "Tae-Hyuk"
+  year: 2025
+  journal: "arXiv preprint"
+  identifiers:
+    - type: other
+      value: "arXiv:2508.16034"
+  url: "https://arxiv.org/abs/2508.16034"

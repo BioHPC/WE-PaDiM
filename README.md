@@ -415,15 +415,17 @@ ls data/VisA/   # Should show: candle, capsules, cashew, ...
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@misc{Gardner_Min_Ahn_2024,
-  title={Wavelet-Enhanced PaDiM for Industrial Anomaly Detection},
-  author={Gardner, Cory and Min, Byungseok and Ahn, Tae-Hyuk},
-  year={2025},
-  eprint={2508.16034},
-  archivePrefix={arXiv},
-  primaryClass={cs.CV},
-  url={https://arxiv.org/abs/2508.16034}
-}
+@ARTICLE{11418894,
+  author={Gardner, Cory and Dhiren, Aendri and Min, Byungseok and Ahn, Tae-Hyuk},
+  journal={IEEE Access}, 
+  title={Wavelet-Enhanced PaDiM for Industrial Anomaly Detection}, 
+  year={2026},
+  volume={14},
+  number={},
+  pages={37702-37718},
+  keywords={Feature extraction;Anomaly detection;Discrete wavelet transforms;Wavelet analysis;Image reconstruction;Location awareness;Frequency-domain analysis;Benchmark testing;Gaussian distribution;Convolutional neural networks;Anomaly detection;anomaly localization;deep learning;discrete wavelet transform;EfficientNet;ResNet;feature selection;industrial inspection},
+  doi={10.1109/ACCESS.2026.3669882}}
+
 ```
 
 ---

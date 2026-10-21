@@ -18,7 +18,7 @@ Due to licensing restrictions, the dataset is **not** included in this repositor
 After extraction, place the dataset folder inside this `data/` directory. The code expects the following structure:
 
 ```
-WE-PaDiM_VisA/
+WE-PaDiM/
 └── data/
     └── MVTec/
         ├── bottle/
@@ -44,7 +44,7 @@ VisA is an additional benchmark supported by this repository. Download it from t
 ### Required Directory Structure
 
 ```
-WE-PaDiM_VisA/
+WE-PaDiM/
 └── data/
     └── VisA/
         ├── candle/

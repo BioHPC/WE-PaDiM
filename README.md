@@ -1,5 +1,6 @@
 # Wavelet-Enhanced PaDiM (WE-PaDiM)
 
+[![IEEE Access](https://img.shields.io/badge/IEEE%20Access-10.1109%2FACCESS.2026.3669882-00629B.svg)](https://doi.org/10.1109/ACCESS.2026.3669882)
 [![arXiv](https://img.shields.io/badge/arXiv-2508.16034-b31b1b.svg)](https://arxiv.org/abs/2508.16034)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-ee4c2c.svg)](https://pytorch.org/)
@@ -50,8 +51,8 @@ Wavelet-Enhanced PaDiM extends the PaDiM anomaly-detection framework by insertin
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/WE-PaDiM_VisA.git
-cd WE-PaDiM_VisA
+git clone https://github.com/BioHPC/WE-PaDiM.git
+cd WE-PaDiM
 
 # Create and activate conda environment
 conda create -n wepadim python=3.10
@@ -69,8 +70,8 @@ pip install pytorch-wavelets pywavelets scipy pandas scikit-learn \
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/WE-PaDiM_VisA.git
-cd WE-PaDiM_VisA
+git clone https://github.com/BioHPC/WE-PaDiM.git
+cd WE-PaDiM
 
 # Create and activate virtual environment
 python -m venv .venv
@@ -102,7 +103,7 @@ pip install pytorch-wavelets pywavelets scipy pandas scikit-learn \
 Download and extract the datasets into the `data/` directory:
 
 ```
-WE-PaDiM_VisA/
+WE-PaDiM/
 └── data/
     ├── MVTec/          # MVTec AD dataset
     │   ├── bottle/

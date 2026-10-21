@@ -5,11 +5,13 @@ title: "Wavelet-Enhanced PaDiM for Industrial Anomaly Detection"
 authors:
   - family-names: "Gardner"
     given-names: "Cory"
+  - family-names: "Dhiren"
+    given-names: "Aendri"
   - family-names: "Min"
     given-names: "Byungseok"
   - family-names: "Ahn"
     given-names: "Tae-Hyuk"
-repository-code: "https://github.com/your-org/WE-PaDiM_VisA"
+repository-code: "https://github.com/BioHPC/WE-PaDiM"
 url: "https://arxiv.org/abs/2508.16034"
 abstract: "Wavelet-Enhanced PaDiM extends the PaDiM anomaly-detection framework by inserting a discrete wavelet transform (DWT) step before feature concatenation. Combining multi-layer CNN activations with frequency-structured subbands improves both image-level and pixel-level anomaly detection on industrial inspection benchmarks such as MVTec AD and VisA."
 keywords:
@@ -20,20 +22,26 @@ keywords:
   - MVTec AD
   - VisA
 license: MIT
-year: 2025
 preferred-citation:
   type: article
   title: "Wavelet-Enhanced PaDiM for Industrial Anomaly Detection"
   authors:
     - family-names: "Gardner"
       given-names: "Cory"
+    - family-names: "Dhiren"
+      given-names: "Aendri"
     - family-names: "Min"
       given-names: "Byungseok"
     - family-names: "Ahn"
       given-names: "Tae-Hyuk"
-  year: 2025
-  journal: "arXiv preprint"
+  journal: "IEEE Access"
+  volume: 14
+  start: 37702
+  end: 37718
+  year: 2026
+  doi: "10.1109/ACCESS.2026.3669882"
+  url: "https://doi.org/10.1109/ACCESS.2026.3669882"
   identifiers:
     - type: other
       value: "arXiv:2508.16034"
-  url: "https://arxiv.org/abs/2508.16034"
+      description: "Preprint"

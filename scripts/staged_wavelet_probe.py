@@ -102,7 +102,7 @@ def resolve_class_list(args: argparse.Namespace) -> List[str]:
     default_fallback = MVTEC_CLASSES if args.dataset_type == "mvtec" else VISA_CLASSES
     try:
         return get_all_class_names(args.data_path, dataset_type=args.dataset_type)
-    except Exception as exc:  pragma: no cover - defensive path
+    except Exception as exc:  # pragma: no cover - defensive path
         print(f"Warning: falling back to canonical class list ({exc})")
         return default_fallback
 
